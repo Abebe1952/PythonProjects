@@ -18,8 +18,8 @@ if choice1=="left":
             print("you found the treasure. you win")
         elif choice3 =="blue":
             print("you entered a room of beasts.Game over")
-        else:
-            print("you did not provide an approprita answer.")
+else:
+    print("Game over.")
 
 
 
