@@ -4,7 +4,7 @@ choice1=input('you\'re at a crossroad,where do you want to go?' 'Type "left" or 
 
 if choice1=="left":
     choice2=input('You\'ve come to a lake.'
-                  "There e is an island in the middle of the lake."
+                  "There is an island in the middle of the lake."
                   'Type "wait" to wait for a boat.'
                   'Type "swim" to swim across.\n').lower()
     if choice2 =="wait":
@@ -20,6 +20,9 @@ if choice1=="left":
             print("you entered a room of beasts.Game over")
 else:
     print("Game over.")
+
+
+
 
 
 
